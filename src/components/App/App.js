@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { User } from '../../containers';
+import { User, Calculator } from '../../containers';
 
 class App extends Component {
     render() {
@@ -12,6 +12,7 @@ class App extends Component {
                     <button onClick={decrementValue}>Decrement</button>
                 </div>
                 <User />
+                <Calculator />
             </div>
         );
     }

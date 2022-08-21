@@ -1,0 +1,3 @@
+export const ADD = "ADD";
+export const CHANGE_FIRST_VALUE = "CHANGE_FIRST_VALUE";
+export const CHANGE_SECOND_VALUE = "CHANGE_SECOND_VALUE";
