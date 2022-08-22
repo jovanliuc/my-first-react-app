@@ -38,7 +38,7 @@ class Calculator extends Component {
                 <br />
                 <button onClick={this.add}>ADD</button>
                 <br />
-                Result: <input value={result}/>
+                Result: {result}
             </div>
         );
     }
